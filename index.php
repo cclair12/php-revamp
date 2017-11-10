@@ -1,4 +1,5 @@
 <?php
+include './_includes/title.php';
 require './_includes/header.php';
 ?>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">

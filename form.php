@@ -1,18 +1,20 @@
+<?php $currentPage = basename($_SERVER['SCRIPT_FILENAME']); ?>
+<?php include './_includes/title.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <!--Basic page needs
 =============================-->
 <head>
 <meta charset="utf-8">
-<title>THANKS</title>
+<title>Maroon 5<?php if (isset($title)) {echo "&#8212;{$title}";} ?></title>
 <meta name="description" content="Discography Website">
 <meta name="author" content="Maroon5 - Answer form">
-    
+
 <!-- Mobile Specific Metas
 ================================================== -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <!-- CSS
-================================================== -->    
+================================================== -->
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 <!-- Styles
 =================================================== -->
@@ -20,7 +22,7 @@
     * {margin: 0; padding: 0;}
 body {
     background-color: black;
-    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'Source Sans Pro', sans-serif;
 }
 h1 {
     text-align: center;
