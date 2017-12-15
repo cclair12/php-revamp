@@ -39,7 +39,6 @@ COLORPALETTE -
 /* Site Styles */
 @import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
 body {
-    background: url(_images/pattern.png);
     background-repeat: repeat;
     background-color: black;
     font-family: 'Ropa Sans', sans-serif;
@@ -131,7 +130,6 @@ a:hover {
     border: 0;
     font-size: 12px !important;
     letter-spacing: 4px;
-    opacity: 0.8;
   }
 .navbar-brand {
     background: url(_images/m5_logo.png) center / contain no-repeat;
@@ -293,13 +291,13 @@ button.btn a:focus, button.btn a:hover {
     text-decoration: none;
 }
 
-button.btn2 {
-    padding: 10px 20px;
+.ticket {
+    padding: 5px 5px;
     background-color: black;
     border-radius: 0;
     transition: .2s;
 }
-button.btn2:hover {
+.ticket:hover {
     border: 1px solid black;
     background-color: #331410;
 }
